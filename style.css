@@ -1,0 +1,154 @@
+/* reset */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@300;500&family=Sarabun:wght@100;400;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-family: "Sarabun", sans-serif;
+}
+.fix{
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+/* nav */
+nav{
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    padding: 10px;
+    gap: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+/* main */
+.main{
+    max-width: 700px;
+    margin: auto;
+}
+main{
+    width: 95%;
+    margin: auto;
+
+    padding: 30px;
+}
+
+/* layout */
+.bg-color{
+    background-color: aqua;
+}
+.border{
+    border: 1px solid red;
+}
+
+
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+}
+.gap{
+    gap: 8px;
+}
+.flex-flow{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-basline{
+    align-items: baseline;
+}
+.width{
+    width: 200px;
+    border-radius: 5px;
+}
+.margin{
+    margin-left: 8px;
+}
+.margin-footer{
+    margin-bottom: 200px;
+}
+.margin-container{
+    padding-block: 30px;
+    border-bottom: 1px solid gray;
+}
+.padding-rigth{
+    padding-right: 20px;
+}
+.padding-inline{
+    padding-inline: 20px;
+}
+.border-right{
+    border-right: 1px solid gray;
+}
+.year{
+    color: aliceblue;
+    background-color: black;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 150px;
+}
+.img{
+    background-image: url(https://picsum.photos/id/101/500);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+@media (max-width:680px){
+    .change{
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+
+    .width{
+        width: 100%;
+    }
+
+    nav{
+        justify-content: center;
+    }
+    nav a{
+        margin-inline: 30px;
+    }
+
+
+
+
+}
+
+
+
+
